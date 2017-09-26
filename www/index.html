@@ -28,8 +28,17 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
+        <script>
+		 function onDeviceReady() {
+        var ref = window.open('http://eduketor.in', '_blank', 'location=no');
+        ref.addEventListener('loadstart', function() {  });
+        ref.addEventListener('loadstop', function() { });
+        ref.addEventListener('exit', function() {  });
+   }
+		</script>
     </head>
-    <body>
+    <body onload="onDeviceReady()">
+        
         <div class="app">
             <h1>PhoneGap</h1>
             <div id="deviceready" class="blink">
