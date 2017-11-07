@@ -29,6 +29,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
         <script>
+		document.addEventListener("deviceready", onDeviceReady, false);
 		 function onDeviceReady() {
         var ref = window.open('http://119.82.126.250:83/reapp/login.html', '_blank', 'location=no');
         ref.addEventListener('loadstart', function() {  });
@@ -37,10 +38,10 @@
    }
 		</script>
     </head>
-    <body onload="onDeviceReady()">
+    <body>
         
         <div class="app">
-            <h1>PhoneGap</h1>
+            <h1>RE</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
