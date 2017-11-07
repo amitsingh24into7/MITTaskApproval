@@ -20,25 +20,24 @@
   <preference name="android-installLocation" value="auto"/>
   <plugin name="org.apache.cordova.battery-status" value="org.apache.cordova.battery-status" />
   
+  <plugin name="org.apache.cordova.camera" value="org.apache.cordova.camera" />
+  <plugin name="org.apache.cordova.media-capture" value="org.apache.cordova.media-capture" />
+  <plugin name="org.apache.cordova.console" value="org.apache.cordova.console" />
+  <plugin name="org.apache.cordova.contacts" value="org.apache.cordova.contacts" />
+  <plugin name="org.apache.cordova.device" value="org.apache.cordova.device" />
+  <plugin name="org.apache.cordova.device-motion" value="org.apache.cordova.device-motion" />
+  <plugin name="org.apache.cordova.device-orientation" value="org.apache.cordova.device-orientation" />
+  <plugin name="org.apache.cordova.dialogs" value="org.apache.cordova.dialogs" />
+  <plugin name="org.apache.cordova.file" value="org.apache.cordova.file" />
+  <plugin name="org.apache.cordova.file-transfer" value="org.apache.cordova.file-transfer" />
+  <plugin name="org.apache.cordova.geolocation" value="org.apache.cordova.geolocation" />
+  <plugin name="org.apache.cordova.inappbrowser" value="org.apache.cordova.inappbrowser" />
+  <plugin name="org.apache.cordova.media" value="org.apache.cordova.media" />
+  <plugin name="org.apache.cordova.network-information" value="org.apache.cordova.network-information" />
+  <plugin name="org.apache.cordova.splashscreen" value="org.apache.cordova.splashscreen" />
+  <plugin name="org.apache.cordova.vibration" value="org.apache.cordova.vibration" />
   
 
-  <gap:plugin name="org.apache.cordova.camera" source="npm"/>
-  <gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
-  <gap:plugin name="org.apache.cordova.console" source="npm"/>
-  <gap:plugin name="org.apache.cordova.contacts" source="npm"/>
-  <gap:plugin name="org.apache.cordova.device" source="npm"/>
-  <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
-  <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
-  <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
-  <gap:plugin name="org.apache.cordova.file" source="npm"/>
-  <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
-  <gap:plugin name="org.apache.cordova.geolocation" source="npm"/>
-  <gap:plugin name="org.apache.cordova.globalization" source="npm"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
-  <gap:plugin name="org.apache.cordova.media" source="npm"/>
-  <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
-  <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
-  <gap:plugin name="org.apache.cordova.vibration" source="npm"/>
   
   
   
