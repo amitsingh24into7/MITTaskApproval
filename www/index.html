@@ -30,8 +30,13 @@
         <title>Hello World</title>
         <script>
 		document.addEventListener("deviceready", onDeviceReady, false);
+		//var ref = cordova.InAppBrowser.open('http://111.93.191.82:85/home/system/HR/index.html', '_blank', 'location=yes');
+//ref.addEventListener('loadstart', function(event) { alert(event.url); });
+		
+		
 		 function onDeviceReady() {
-        var ref = window.open('http://111.93.191.82:85/home/system/HR/index.html', '_blank', 'location=no');
+      //  var ref = window.open('http://111.93.191.82:85/home/system/HR/index.html', '_blank', 'location=no');
+	var ref = cordova.InAppBrowser.open('http://111.93.191.82:85/home/system/HR/index.html', '_blank', 'location=yes');
         ref.addEventListener('loadstart', function() {  });
         ref.addEventListener('loadstop', function() { });
         ref.addEventListener('exit', function() {  });
